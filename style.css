@@ -1,0 +1,234 @@
+body{
+    background-color: #04254e;
+    display: grid;
+    grid-template-columns: 70% 30%;
+   
+}
+
+.caja-ocura{
+    box-shadow: #0000005e 10px 10px 10px 10px ;
+}
+.caja-ocura:hover{
+    box-shadow: #8ad4eb7a 5px 5px 15px 15px ;
+}
+
+#sobreMi{
+    width: 90%;
+    margin: 20px 20px;
+    
+}
+.card-title{
+    font-family: 'Seymour One', sans-serif;
+    font-size: 40px;
+    color: #290144;
+}
+.card-title:hover , .title-text:hover{
+    color: #000;
+}
+.card{
+    height: 300px;
+    color: #eb8a8a;
+    border: 5px solid #eb8a8a;
+    background-color: #5954a4;
+
+}
+.title-text{
+    color: #301453;
+}
+.btn-color{
+    background-color: #290144;
+    color: #eb8a8a;
+  
+}
+.btn-color:hover{
+    background-color: #104485;
+    border: 3px solid #eb8a8a;
+}
+.info-table{
+    visibility: hidden;
+}
+
+h5{
+    color: #290144;
+    display: inline-block;
+
+}
+.p{
+    color: #eb8a8a;
+   display: inline-block;
+   margin-left: 10px;
+}
+
+#cuentasWeb{
+    margin:25px 10px;
+    height: 245px;
+}
+
+.cuentas{
+   padding: 10px 20px;
+   border: 5px solid #8ad5eb;
+   border-radius: 10px;
+   background-color: #5954a4;
+}
+.bi-linkedin{
+    width: 35px;
+    height: 35px;
+    margin: 8px ;
+}
+.bi-github{
+    width: 38px;
+    height: 38px;
+    margin: 5px 15px;
+}
+
+#idioma{
+    margin-top: 10px;
+    height: 120px;
+    border: 5px solid #e5eb8a;
+    background-color: #5954a4;
+    border-radius: 10px;
+}
+.idioma{
+    margin: 5% 40%;
+    color: #e5eb8a;
+    background-color: #04254e;
+    height: 70px;
+    width: 70px;
+    font-weight: 900;
+    border-radius: 40%;
+    border: 3px solid #e5eb8a;
+}
+.idioma:hover{
+    background-color: #104485;
+}
+.text-portafolio{
+    display: grid;
+    grid-column: 1/2;
+    font-family: 'Seymour One', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    height: 70px;
+    padding: 10px 150px;
+    margin: 10px 190px;
+    background-color: #8ad5eb;
+    border-radius: 30px;
+    z-index: 100;
+}
+.text-proyectos{
+    color: #290144;
+}
+
+#portafolio{
+    display: grid;
+    grid-column: 1/1;
+    margin: 40px 20%;
+    width: 100%;
+}
+
+ img{
+    width: 900px;
+}
+
+.experiencia{
+    display: grid;
+    grid-column: 1/2;
+    font-family: 'Seymour One', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    height: 70px;
+    padding: 10px 250px;
+    margin: 10px 190px;
+    background-color: #5954a4;
+    border-radius: 30px;
+    z-index: 100;
+}
+
+.mostrador-1{
+    display: grid;
+    grid-column: 1/ span 2;
+    width: 100%;
+    height: 300px;
+    background-color: #1a002b;
+    margin: 20px 0px 0 0;
+}
+.mostrador-2{
+    display: grid;
+    grid-column: 1/ 2;
+    width: 70%;
+    height: 250px;
+    background-color: #5954a4;
+    border-radius: 30px;
+    border: 5px solid #eb8a8a;
+    margin: 20px 200px ;
+}
+.mostrador-3{
+    width: 99%;
+    height: 230px;
+    border-radius: 20px;
+    border: 5px solid #8ad5eb;
+    margin: 5px;
+}
+.divisor{
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(2,50%);
+    width: 99%;
+    height: 210px;
+    border-radius: 10px;
+    border: 5px solid #e5eb8a;
+    margin: 5px;
+}
+.logo-1{
+    display: grid;
+    grid-column: 1/1;
+    grid-row: 1/1;
+    width: 100px;
+    height: 70px;
+    margin: 15px;
+}
+.logo-2{
+    display: grid;
+    grid-column: 2/2;
+    grid-row: 1/1;
+    width: 100px;
+    height: 70px;
+    margin: 15px;
+}
+.logo-3{
+    display: grid;
+    grid-column: 3/3;
+    grid-row: 1/1;
+    width: 100px;
+    height: 70px;
+    margin: 15px;
+}
+.logo-4{
+    display: grid;
+    grid-column: 4/4;
+    grid-row: 1/1;
+    width: 100px;
+    height: 70px;
+    margin: 15px;
+}
+.logo-5{
+    display: grid;
+    grid-column: 5/5;
+    grid-row: 1/1;
+    width: 100px;
+    height: 70px;
+    margin: 15px;
+}
+
+.divisor p{
+    margin: 10% 25%;
+}
+#p-js{
+    margin:10% 12%;
+}
+
+.hover:hover{
+   width: 120px;
+   height: 90px;
+   margin: 5px;
+}
+
