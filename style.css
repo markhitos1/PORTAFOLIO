@@ -124,17 +124,17 @@ body{
         }
          #sobreMi .img-pro{
          margin:-10% 0 ;
-         width: 50px;
-         height: 50px;
+         width: 55px;
+         height: 55px;
         }
         #sobreMi .card-title{
-         font-size: 200%;
+         font-size: 210%;
         }
         #title-text{
-         font-size: 100%;
+         font-size: 110%;
         }
         .card-text{
-         font-size: 80%;
+         font-size: 90%;
         }
         #sobreMi .card{
          width: 95%;
@@ -183,7 +183,7 @@ body{
  
         div#portafolio{
          display: inline-block;
-         margin: 10% 0;
+         margin: 4% 0;
          width: 99%;
         }
  
@@ -214,7 +214,7 @@ body{
         }
         #exp {
          width: 90%;
-         margin: 0 4%  ;
+         margin:  5%  ;
          padding: 4% 7%;
         }
         #exp .exp{
@@ -235,7 +235,7 @@ body{
         }
         .mostrador-1 .mostrador-2 .mostrador-3{
          position: relative;
-         width: 95%;
+         width: 98%;
          margin: 1% 0.7%;
          border-radius: 20px;
         }
@@ -298,7 +298,68 @@ body{
      }
      
  
-     @media screen and (max-width:400px) {
+     @media screen and (max-width:500px) {
+
+        #sobreMi .img-pro{
+            margin:-10% 0 ;
+            width: 50px;
+            height: 50px;
+           }
+           #sobreMi .card-title{
+            font-size: 200%;
+           }
+           #title-text{
+            font-size: 90%;
+           }
+           .card-text{
+            font-size: 70%;
+           }
+
+           div#cuentasWeb{
+            display: inline-block;
+            margin: 5% 3%;
+            width: 90%;
+            height: 200px;
+           }
+           #cuentasWeb .cuentas{
+            display: inline-block;
+            width: 50%;
+            height: 160px;
+            margin: 0 1%;
+            font-size: 80%;
+           }
+           #idioma {
+            display: inline-block;
+            width: 40%;
+            margin: 0;
+           }
+            #cuentasWeb #idioma  {
+            position: absolute;
+            margin: 0 5px;
+            height: 160px;
+           }
+           #idioma .idioma{
+            margin: 25% ;
+           }
+
+           #text-portafolio {
+            display: inline-block;
+            width: 90%;
+            margin: -40px 3% ;
+            padding: 0 3%;
+           }
+           #text-portafolio .text-proyectos{
+            margin: 5% 3%;
+            font-size: 100%;
+            width: 100%;
+           }
+
+           div#portafolio{
+            display: inline-block;
+            margin: 10% 0 0 0;
+            width: 99%;
+           }
+
          .mostrador-1 .mostrador-2 .mostrador-3 .divisor .logo-1{
              display: grid;
              grid-column: 1/1;
