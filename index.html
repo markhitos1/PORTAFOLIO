@@ -18,21 +18,14 @@
     <div id="sobreMi">
         <div class="card caja-ocura">
             <div class="card-body">
-              <h5 class="card-title"> Marcos Cabrera  </h5>
-              <p class="card-text"><h4 class="title-text" >Desarrollador Web Frontend </h4>
-
+              <h5 class="card-title"> Marcos Cabrera <img src="/img/programacion.png" class="img-pro" alt=""> </h5>
+              <h4 class="title-text" id="title-text" >Desarrollador Web Frontend </h4>
+              <p class="card-text">
                 Me considero con una sólida trayectoria de 2 años en el fascinante mundo del desarrollo web,
                 yo me destaco como un apasionado programador frontend con habilidades excepcionales
                 en diversas tecnologías clave; Mi enfoque experto en la creación de experiencias de usuario cautivadoras
                 y funcionales me ha convertido en un activo valioso en el ámbito del desarrollo web.</p>
-                <a class="btn btn-color" type="button"  > SABER MAS </a>
-                <div class="info-table" >
-                 <h5>Nacionalidad: </h5>   <div class="nacionalidad p" >  Argentina </div> <br>
-                 <h5>Provincia: </h5>  <div class="provincia p" >Santa Fe</div> <br>
-                 <h5>Localidad:</h5><div class="localidad p" >Villa Gobernador Galvez</div> <br>
-                 <h5>Gmail:</h5><div class="gmail p" >mc2622016@gmail.com</div> <br>
-                 <h5>Telefono:</h5><div class="tel p" > 3416691310</div> <br>
-                </div>
+                <a class="btn btn-color" type="button" href="/cv/marcos cabrera (1).pdf" download="marcos cabrera (1).pdf" > Descargar cv </a>
               
             </div>
           </div>
@@ -52,43 +45,76 @@
 
          <!-- boton para cambiar de idioma -->
       <div id="idioma" class="caja-ocura" >
-              <button type="button" class="idioma" > ES/EN </button>
+              <button type="button" class="idioma"> ES/EN </button>
       </div>
       </div>
 
 
       <!-- TITULO DEL PORTAFOLIO -->
      
-   <div class="text-portafolio caja-ocura "> <h1 class="text-proyectos" > Algunos Proyectos </h1> </div> 
+   <div class="text-portafolio caja-ocura " id="text-portafolio"> <h1 class="text-proyectos" > Algunos Proyectos </h1> </div> 
 
       <div id="portafolio" >
         <div id="carouselExample" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="/img/hamburguesas.png" class="d-block w-100"   alt="banner 1" >  
+                <div class="muestra">
+                 
+                    <img src="/img/hamburguesa.png"  class="muestra-img" alt="img-gamer">
+                    <p class="text-hamburgers" >En nuestra web tendran el destino perfecto para aquellos que buscan deliciosos bocados con un toque único. Con ingredientes frescos y de alta calidad, combinados con creatividad en cada receta, te invitamos a disfrutar de la conveniencia y el sabor inigualable que ofrecemos. </p>
+                    <div> <img src="/img/css.png" class="pro-exp" alt="css">  <img src="/img/JavaScript-logo.png" class="pro-exp" alt="javascript"> <img src="/img/html.png" class="pro-exp" alt="html"> </div>
+                    <div class="visitas" >  
+                      <p class="tamaño-web" >peso: 5,4MB  </p>
+                      <a href="https://juego-ebon.vercel.app/"  >
+                        <button class="button-visita" > visitar </button>
+                      </a>
+                    </div>
+                
+                  </div>
               </div>
               <div class="carousel-item">
-                <img src="/img/juego.png" class="d-block w-100"   alt="banner 1" >  
+               <div class="muestra" >
+              
+                  <img src="/img/cancionero.png"  class="muestra-img" alt="img-app">
+                  <p class="text-cancionero" >En este sitio podras en contrar una aplicacion llamado "cancionero" que le permite al usuario encontrar canciones donde tendra la letra de la cancion y sus determinados acordes instrumental ; Esta app abarcaria un total de 105 canciones. </p>
+                  <div> <img src="/img/css.png"  class="pro-exp" alt="css">  <img src="/img/JavaScript-logo.png"  class="pro-exp" alt="javascript"> <img src="/img/jquery.png"  class="pro-exp" alt="jquery"> </div>
+                  <div class="visitas" >  
+                    <p class="tamaño-web" >peso: 281,4kB</p>
+                    <a href="https://hamburguers-l3973664f-markhitos1.vercel.app/"  >
+                      <button class="button-visita" > visitar </button>
+                    </a>
+                  </div>
+                </div> 
               </div>
               <div class="carousel-item">
-                <img src="/img/hamburguesas.png" class="d-block w-100"   alt="banner 1" > 
+               <div class="muestra" > <img src="/img/gigantes.png" class="muestra-img" alt="img-gamer">
+                <P id="text-juego" >En este emocionante juego de acción y estrategia, te enfrentarás a la tarea épica de derrotar a un colosal gigante que amenaza con destruir tu tierra. Equipado con una poderosa espada, tu misión es enfrentarte a este imponente enemigo y salvar tu reino </P>
+                <div  > <img src="/img/JavaScript-logo.png" class="pro-exp" alt="img-exp"> <img class="pro-exp" src="/img/css.png" alt="img-exp"> <img src="/img/html.png" class="pro-exp" alt="html"> </div>
+              <div class="visitas" >  
+                <p class="tamaño-web" >peso: 3,9MB</p>
+                <a href="https://juego-ebon.vercel.app/"  >
+                  <button class="button-visita" > visitar </button>
+                </a>
+              </div>
+             
+              </div>
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+              <span class="visually-hidden"></span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+              <span class="visually-hidden"></span>
             </button>
           </div>
       </div>
 
       <!-- experiencias -->
 
-      <div class="experiencia caja-ocura ">
-        <h1>Experiencia</h1>
+      <div id="exp" class="experiencia caja-ocura ">
+        <h1 class="exp" >Experiencia</h1>
       </div>
       <div class="mostrador-1">
         <div class="mostrador-2">
